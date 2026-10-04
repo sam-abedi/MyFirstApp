@@ -25,6 +25,15 @@ class BankAccount
         {
             Balance -= amount;
         }
+
+        public void Withdraw2(double amount)
+    {
+        if (amount > 0 && amount <= Balance)
+        {
+            Balance -= amount;
+        } 
+
+
     }public double GetBalance()
 {
     return Balance;
