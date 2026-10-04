@@ -25,5 +25,9 @@ class BankAccount
         {
             Balance -= amount;
         }
-    }
+    }public double GetBalance()
+{
+    return Balance;
+}
+
 }
