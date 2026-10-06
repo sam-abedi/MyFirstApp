@@ -1,12 +1,9 @@
 ﻿
 BankAccount account = new BankAccount();
-
+Console.WriteLine("Welcome to the Bank");
 account.Deposit(500);
 account.Withdraw(300);
-
-Console.WriteLine(account.Balance);
-
-
+Console.WriteLine("your current balance");
 class BankAccount
 {
     public double Balance { get; private set; }
