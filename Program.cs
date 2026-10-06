@@ -4,7 +4,7 @@ BankAccount account = new BankAccount();
 account.Deposit(500);
 account.Withdraw(300);
 
-Console.WriteLine(account.Balance);
+Console.WriteLine("Your balance is:");
 
 
 class BankAccount
