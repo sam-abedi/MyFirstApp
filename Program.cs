@@ -1,6 +1,6 @@
 ﻿
 BankAccount account = new BankAccount();
-
+Console.WriteLine("Welcome to the Bank");
 account.Deposit(500);
 account.Withdraw(300);
 Console.WriteLine("your current balance");
