@@ -3,10 +3,7 @@ BankAccount account = new BankAccount();
 
 account.Deposit(500);
 account.Withdraw(300);
-
-Console.WriteLine("Current Balance:");
-
-
+Console.WriteLine("your current balance");
 class BankAccount
 {
     public double Balance { get; private set; }
